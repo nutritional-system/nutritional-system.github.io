@@ -1,0 +1,1099 @@
+/*********************  Default-CSS  *********************/
+:root {
+    scroll-behavior: unset;
+}
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 2;
+}
+a, span, a:hover, a:active, button {
+    text-decoration: none;
+}
+a, div a:hover, div a:active, div a:focus, button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+p {
+    margin: 0;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    margin: 0;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.cm-overflow, .cm-overflow body, .modal-open {
+    overflow: hidden;
+    -ms-touch-action: none;
+        touch-action: none;
+}
+.modal-open {
+    height: 100%;
+    width: 100%;
+}
+.row {
+    margin: 0 -15px;
+}
+.container {
+    padding: 0 15px;
+}
+.col, [class*=col-] {
+    padding: 0 15px;
+}
+/*********************  Default-CSS close  *********************/
+
+/********************  Header Css Start  *********************/
+.main-wrapper {
+    overflow: hidden;
+}
+header {
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 77px 0;
+}
+.in_header_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.logo_hold a {
+    display: inline-block;
+}
+.menu_block .menu_list > ul > li {
+    display: inline-block;
+    margin-right: 65px;
+    position: relative;
+}
+.menu_block .menu_list > ul > li > a {
+    font-weight: 300;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.menu_block .menu_list > ul > li:hover > a,
+.menu_block .menu_list > ul > li.active > a{
+    font-weight: 600;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.menu_toggle_btn {
+    display: none;
+}
+/*  Mobile Menu Css Start */
+.menu_toggle_btn span {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.open_menu .menu_toggle_btn span {
+    background-color: #2B2A35;
+}
+/*  Mobile Menu Css Close */
+
+.menu_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.logo_hold {
+    max-width: 272px;
+}
+.menu_logo{
+    max-width: 135px;
+    display: inline-block;
+} 
+header.fixed {
+    background-color: rgb(0 0 0 / 90%);
+    padding: 30px 0;
+}
+header.fixed .logo_hold {
+    max-width: 240px;
+}
+header.fixed .menu_block .menu_list > ul > li > a{
+    font-size: 18px;
+    color: #ffffff;
+}
+header.fixed .menu_block .menu_list >  ul > li {
+    margin-right: 40px;
+}
+header.fixed  .menu_logo {
+    max-width: 110px;
+}
+header.fixed .logo_hold img,
+header.fixed .menu_logo img{
+    -webkit-filter: invert(1);
+            filter: invert(1);
+}
+
+.mega_menu{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 400px;
+}
+
+.inner-mega_menu{
+    margin-top: 25px;
+    padding: 38px 0;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 20px -20px #1d1d1b;
+            box-shadow: 1px 1px 20px -20px #1d1d1b;
+
+}
+.mega_menu_item_link{
+    padding: 0 44px;
+    position: relative;
+    display: block;
+}
+.mega_menu_list::-webkit-scrollbar-track{
+	border-radius: 0;
+	background-color: transparent;
+}
+.mega_menu_list::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}
+.mega_menu_list::-webkit-scrollbar-thumb{
+	border-radius: 0;
+	background-color: transparent;
+}
+.mega_menu_item{
+    position: relative;
+    line-height: 1;
+}
+.mega_menu_item + .mega_menu_item {
+    padding-top: 10px;
+    margin-top: 10px;
+    /* border-top: 1px solid #000000; */
+}
+.mega_menu_item:not(:first-child) .mega_menu_item_link::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 77%;
+    height: 1px;
+    background-color: #000000;
+}
+.mega_menu_item_link h2{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.mega_menu_item_link h3,
+.sub_mega_menu h3{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.mega_menu_item_link p,
+.sub_mega_menu p{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 300; 
+    line-height: 1.2;
+}
+header.fixed .inner-mega_menu {
+    margin-top: 38px;
+}
+
+.sub_mega_menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    background-color: #fff;
+    height: 106px;
+    width: 160px;
+    right: -160px;
+    display:-webkit-box !important;
+    display:-ms-flexbox !important;
+    display:flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(29 29 27 / 62%);
+            box-shadow: 1px 1px 5px 0px rgb(29 29 27 / 62%);
+}
+/********************  Header Css End  *********************/
+
+
+/********************  Hero Css Start  *********************/
+.owl_hero_slider_item{
+    position: relative;
+}
+.hero_slider_procudt_details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.hero_slider_procudt_contant {
+    background-color: rgb(171, 149, 199, 0.902);
+    padding: 25px 0 20px;
+}
+.hero_slider_procudt_contant .container{
+    position: relative;
+}
+.hero_slider_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.slider_produvt_img{
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    /* width: 785px; */
+    width: 47%;
+}
+.slider_produvt_img img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.hero_slider_text h2{
+    max-width: 255px;
+}
+.hero_slider_text p{
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+    line-height: 0.8;
+    margin-left: 22px;
+}
+.hero_slider_procudt_color{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(116, 38, 109,0.902);
+}
+.owl_hero_slider.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0;
+    line-height: 0;
+    margin-top: 0;
+    line-height: 0;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    z-index: 9;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);   
+}
+.owl_hero_slider.owl-theme .owl-dots .owl-dot span{
+    width: 9px;
+    height: 9px;
+    margin: 0 1px;
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+.owl_hero_slider.owl-theme .owl-dots .owl-dot.active span, .owl_hero_slider.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #000000;
+}
+/********************  Hero Css End  *********************/
+
+/********************  Footer Css Start  *********************/
+.footer_wrapper{
+    background-color: #1d1d1b;
+    padding: 45px 0;
+}
+.footer_wrapper .row{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer_menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5px;
+}
+.footer_menu > a,
+.footer_menu > p{
+    font-weight: 300;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    line-height: 1.372;
+}
+.footer_menu > p{
+    margin: 0 5px;
+}
+.footer_menu > a:hover{
+    color: #b09cc9;
+}
+.copy_right{
+    margin-bottom: 23px;
+}
+.copy_right p,
+.copy_right p a{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.372;
+}
+.social_icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.social_icon > li + li{
+    margin-left: 10px;
+}
+.social_icon svg {
+    width: 39px;
+    height: 39px;
+}
+.social_icon svg image{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.footer_logo{
+    margin-left: auto;
+    max-width: 140px;
+}
+/********************  Footer Css End  *********************/
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+/********************  La Marca Css Start  *********************/
+.inner-hero-sec{
+    background-image: url(../images/la-marca-hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 335px 0 150px;
+}
+.inner-hero-title {
+    color: rgb(0, 0, 0);
+    font-size: 39px;
+    font-weight: 300;
+    max-width: 800px;
+    text-transform: uppercase;
+}
+.inner-hero-title b{
+    font-weight: 700;
+}
+
+/* NS Nutricional Start */
+.ns-nutricional{
+    padding: 110px 0 165px;
+}
+.section-title-wrap {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    line-height: 1.166;
+    font-weight: 700;
+}
+.section-content{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    line-height: 1.166;
+    font-weight: 300;
+}
+.ns-nutricional .row{
+    margin-top: 100px;
+}
+.ns-nutricional-card-img img{
+    width: 100%;
+}
+.ns-nutricional-card {
+    background-color: #f6f6f6;
+    height: 100%;
+}
+.ns-nutricional-card-content {
+    padding: 27px 27px 60px;
+}
+.ns-nutricional-card-title{
+    color: #000000;
+    font-size: 26px;
+    line-height: 1.071;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.ns-nutricional-card-text {
+    color: #000000;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+/* NS Nutricional End */
+/********************  La Marca Css End  *********************/
+
+/********************  Intermedia Css Start  *********************/
+.intermedia-page .hero_slider_procudt_contant {
+    padding: 15px 0;
+}
+.hero_produvt_img{
+    max-width: 200px;
+}
+.all-product-sec {
+    margin: 10px 0 152px;
+}
+.breadkurma-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 0;
+}
+.breadkurma-wrap a{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 300;
+    line-height: 1;
+}
+.breadkurma-wrap a b{
+    font-weight: 600;
+}
+.breadkurma-wrap span{
+    margin: 0 4px;
+}
+.vlas-urinarias-produvt_title{
+    position: relative;
+}
+.vlas-urinarias-produvt_title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    background-color: rgb(202, 23, 53);
+    opacity: 0.251;
+}
+.vlas-urinarias-title{
+    margin: 75px 0;
+}
+.vlas-urinarias-wrap {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    line-height: 0.8;
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0px 17px 0 13px;
+    background-color: #fff;
+    z-index: 9;
+    position: relative;
+    border-left: 12px solid #ca1735;
+}
+.menopausia-title::before{
+    background-color: #685889;
+}
+.flora-vaginal-title::before{
+    background-color: #a4305d;
+}
+.slndrome-premenstrual-title::before{
+    background-color: #a5568f;
+}
+
+.menopausia-title .vlas-urinarias-wrap{
+    border-color: #685889;
+}
+.flora-vaginal-title .vlas-urinarias-wrap{
+    border-color: #a4305d;
+}
+.slndrome-premenstrual-title .vlas-urinarias-wrap{
+    border-color: #a5568f;
+}
+.all-product-sec .row {
+    margin: 0 -22px;
+}
+.all-product-sec .row > div {
+    padding: 0 22px;
+}
+.product-card-img {
+    margin-bottom: 25px;
+    height: 266px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.all-product-sec .vlas-urinarias_details{
+    margin-bottom: 85px;
+}
+.product-card-img img {
+    margin-left: -40px;
+}
+.product-card-details h3{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 7px;
+}
+.product-card-details h6{
+    font-size: 21px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.0;
+    max-width: 315px;
+    margin-bottom: 18px;
+}
+.product-card-details p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.1;
+}
+.product-card-details p b{
+    font-weight: 600;
+}
+.menopausia-flore{
+    margin-bottom: 73px;
+}
+.slndrome-premenstrual{
+    margin-top: 83px;
+}
+.menopausia-flore_wrap .product-card-img{
+    height: 290px;
+}
+.menopausia-card .product-card-img img {
+    margin-left: -100px;
+}
+.flora-vaginal-card .product-card-img img {
+    margin-left: -70px;
+}
+.slndrome-premenstrual-card .product-card-img img {
+    margin-left: -30px;
+}
+/********************  Intermedia Css End  *********************/
+
+
+/********************  Asesoramiento Css Start  *********************/
+.asesoramiento-page .row {
+    margin: 0 -24px;
+}
+.asesoramiento-page .col, .asesoramiento-page [class*=col-] {
+    padding: 0 24px;
+}
+.asesoramiento-page .inner-hero-sec{
+    padding: 307px 0 150px;
+    background-image: url(../images/asesoramiento-hero-bg.png);
+}
+.asesoramiento-page .inner-hero-content {
+    width: 805px;
+}
+.asesoramiento-page .inner-hero-title {
+    max-width: unset;
+    margin-bottom: 42px;
+}
+.asesoramiento-page .inner-hero-content h2{
+    font-size: 28px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 740px;
+}
+.laboratorios-cinfa-sec{
+    margin: 117px 0 140px;
+}
+.laboratorios-cinfa-details h6 + h6{
+    margin-top: 38px;
+}
+.laboratorios-cinfa-details h6{
+    font-size: 32px;
+    color: #000000;
+    line-height: 1.0;
+    font-weight: 300;
+    max-width: 776px;
+}
+.laboratorios-cinfa-details h6 b{
+    font-weight: 700;
+}
+.conoce-todos-details h6 {
+    padding-bottom: 140px;
+}
+.conoce-todos-details p{
+    font-size: 21px;
+    color: #000000;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.tratamientos-sec{
+    margin-bottom: 157px;
+}
+.asesoramiento-page .vlas-urinarias-produvt_title {
+    line-height: 0;
+    margin-bottom: 83px;
+}
+.asesoramiento-page .vlas-urinarias-produvt_title::before{
+    background-color: #1d1d1b;
+}
+.asesoramiento-page .vlas-urinarias-produvt_title .vlas-urinarias-wrap{
+    border-color: #1d1d1b;
+}
+.tratamientos-card-img{
+    margin-bottom: 25px;
+}
+.estudios-card-img{
+    margin-bottom: 26px;
+}
+.estudios-sec .row{
+    margin-bottom: -67px;
+}
+.estudios-sec {
+    margin-bottom: 220px;
+}
+.estudios-sec .row > div{
+    margin-bottom: 67px;
+}
+.estudios-card-title{
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.1;
+    padding-left: 23px;
+    position: relative;
+    text-transform: uppercase;
+}
+.estudios-card-title::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 12px;
+    height: 87%;
+}
+.estudios-border::before{
+    background-color: #9b5da2;
+}
+.peso-ideal-border::before{
+    background-color: #009fe3;
+}
+.cardiovascular-border::before{
+    background-color: #e30613;
+}
+.regularidad-border::before{
+    background-color: #8abd24;
+}
+.nutricion-border::before{
+    background-color: #ea580c;
+}
+.nutricion-infantil-border::before{
+    background-color: #60aba5;
+}
+.prersonal-virtual-border::before{
+    background-color: #898480;
+}
+.vegetariano-border::before{
+    background-color: #236034;
+}
+/********************  Asesoramiento Css End  *********************/
+
+/********************  Contacto Css Start  *********************/
+.contacto-page .inner-hero-sec{
+    background: unset;
+}
+.contact-details-sec{
+    padding: 140px 0 130px;
+}
+.cm-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.customer-service{
+    width: 379px;
+}
+.contact-form{
+    width: calc(100% - 379px);
+    padding-left: 47px;
+}
+.customer-service-box{
+    background-color: #f6f6f6;
+    padding: 33px 27px;
+}
+.customer-service-box + .customer-service-box{
+    margin-top: 40px;
+}
+.customer-service-title{
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+.customer-service-item > li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 1;
+}
+.customer-service-item > li > span{
+    margin-right: 11px;
+}
+.customer-service-item > li > a{
+    font-size: 19px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1;  
+}
+.customer-service-item > li:nth-child(2){
+    margin:14px 0 24px;
+}
+.contact-form-wrap{
+    background-color: #f6f6f6;
+    padding: 33px 27px 27px;
+    margin-bottom: 47px;
+}
+.input_group{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -25px;
+}
+.input_group:not(:last-child){
+    margin-bottom: 35px;
+}
+.input_group > div{
+    padding: 0 25px;
+    width: 50%;
+}
+.input-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    line-height: 0;
+}
+.input-box label {
+    font-size: 19px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1;
+    margin-right: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.input-box label sup{
+    font-size: 12px;
+    line-height: 0;
+}
+.input-box input,
+.input-box textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #949494;
+    height: auto;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1;
+    width: 100%;
+}
+.input-box textarea{
+    height: 118px;
+    margin-top: 15px;
+    resize: none;
+}
+.checkbox-wrap input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.checkbox-wrap label {
+    position: relative;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+.checkbox-wrap label > a{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #000000;
+    margin-left: 6px;
+}
+.checkbox-wrap label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 7px;
+    border-radius: 50px;
+}
+.checkbox-wrap input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 6px;
+    height: 10px;
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+.input-box.button_wrap{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.input-box.button_wrap button{
+    display: block;
+    border: 0;
+    outline: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 15px;
+    line-height: 1;
+}
+.input-box.button_wrap button:hover{
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
+}
+.contact-form-details{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.2;
+}
+.contact-form-details a{
+    font-weight: 700;
+    color: #000;
+    text-decoration: underline;
+}
+/********************  Contacto Css End  *********************/
+
+/********************  Producto Css Start  *********************/
+section.gineprotect_sec {
+    margin-bottom: 176px;
+}
+.producto-page .all-product-sec {
+    margin: 10px 0 175px;
+}
+.gineProtect-text{
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1;
+}
+.gineProtect-title{
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.gineProtect-sug-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.12;
+    text-transform: uppercase;
+    margin-bottom: 47px;
+    max-width: 657px;
+}
+.gineProtect-description{
+    font-size: 21px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.1;
+    max-width: 773px;
+}
+.gineProtect-description b{
+    font-weight: 700;
+}
+.gineProtect-details {
+    height: 95px;
+    padding: 20px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.accordion {
+    margin:0 0 50px;
+    padding: 0;
+    list-style: none;
+}
+/* Thumb */
+.accordion-thumb {
+    margin: 0;
+    padding: 13px 16px 13px 10px;
+    cursor: pointer;
+    font-weight: normal;
+    background-color: #f2c5cc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;    
+}
+.accordion-thumb > p{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.1;
+}
+/* Panel */
+.accordion-panel {
+    margin: 0;
+    display: none;
+    padding: 20px 0 25px;
+    font-size: 21px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.14;
+}
+.accordion-item{
+    border: none !important;
+}
+.accordion-item:not(:last-child){
+    margin-bottom: 11px;
+}
+/* Active */
+.accordion-thumb > span{
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.accordion-item.is-active .accordion-thumb > span {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gineProtect-accordion-text{
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.2;
+    font-weight: 300;
+    max-width: 784px;
+}
+
+.accordion .present {
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+}
+.gineProtect-details > p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.1;
+}
+.gineProtect-details b{
+    font-weight: 700;
+}
+/********************  Producto Css End  *********************/

@@ -1,0 +1,1354 @@
+@media (min-width: 992px){
+    .nav-btn .mega_menu{
+        left: 50%;
+        -webkit-transform: translateY(0) translateX(-50%);
+            -ms-transform: translateY(0) translateX(-50%);
+                transform: translateY(0) translateX(-50%);
+    }
+    .nav-btn:hover .mega_menu {
+        visibility: visible;
+        opacity: 1;
+    }
+    .mega_menu_item:hover .sub_mega_menu{
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@media (min-width: 1700px){
+    .container{
+        max-width: 1690px;
+    }
+    .ns-nutricional .row{
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    .ns-nutricional .row > div{
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 1600px){
+    .hero_slider_text h2 {
+        max-width: 210px;
+    }
+    .hero_slider_text p {
+        font-size: 22px;
+    }
+    .slider_produvt_img {
+        width: 43%;
+    }
+    .menu_block .menu_list > ul > li {
+        margin-right: 45px;
+    }
+    .ns-nutricional-card-text br{
+        display: none;
+    }
+    .ns-nutricional-card-content {
+        padding: 27px 27px 50px;
+    }
+}
+
+@media (max-width: 1440px){
+    .menu_block .menu_list > ul > li > a {
+        font-size: 18px;
+    }
+    .menu_logo {
+        max-width: 115px;
+    }
+    .logo_hold {
+        max-width: 250px;
+    }
+    header {
+        padding: 60px 0;
+    }
+    .ns-nutricional-card-content {
+        padding: 20px 20px 30px;
+    }
+    .ns-nutricional-card-text {
+        font-size: 20px;
+    }
+    .ns-nutricional-card-title {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .section-title-wrap {
+        font-size: 35px;
+    }
+    .section-content {
+        font-size: 35px;
+    }
+    .inner-hero-title {
+        font-size: 36px;
+    }
+    .flora-vaginal-card .product-card-img img {
+        margin-left: -65px;
+    }
+    .menopausia-card .product-card-img img {
+        margin-left: -80px;
+    }
+    .estudios-card-title {
+        font-size: 25px;
+    }
+    .asesoramiento-page .inner-hero-sec {
+        padding: 265px 0 130px;
+    }
+    .laboratorios-cinfa-sec {
+        margin: 105px 0 130px;
+    }
+    .asesoramiento-page  .vlas-urinarias-wrap {
+        line-height: 1;
+        font-size: 36px;
+    }
+    .asesoramiento-page .vlas-urinarias-produvt_title {
+        margin-bottom: 70px;
+    }
+    .tratamientos-sec {
+        margin-bottom: 135px;
+    }
+    .customer-service {
+        width: 330px;
+    }
+    .contact-details-sec {
+        padding: 120px 0;
+    }
+    .contact-form {
+        width: calc(100% - 330px);
+        padding-left: 47px;
+    }
+    .producto-page .all-product-sec {
+        margin: 10px 0 145px;
+    }
+    section.gineprotect_sec {
+        margin-bottom: 156px;
+    }
+}
+
+
+
+
+@media (max-width: 1360px){
+    .hero_slider_text h2 {
+        max-width: 180px;
+    }
+    .hero_slider_text p {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .footer_menu > a, .footer_menu > p {
+        font-size: 18px;
+    }
+    .copy_right p, .copy_right p a {
+        font-size: 18px;
+    }
+    .social_icon svg {
+        width: 36px;
+        height: 36px;
+    }
+    .footer_logo {
+        max-width: 120px;
+    }
+    .ns-nutricional {
+        padding: 90px 0 140px;
+    }
+    .product-card-details h3 {
+        font-size: 24px;
+    }
+    .vlas-urinarias-title {
+        margin: 65px 0;
+    }
+    .product-card-img img {
+        margin-left: -26px;
+    }
+    .menopausia-flore {
+        margin-bottom: 63px;
+    }
+    .vlas-urinarias-wrap {
+        font-size: 37px;
+        height: 32px;
+    }
+    .all-product-sec {
+        margin: 10px 0 130px;
+    }
+    .asesoramiento-page  .vlas-urinarias-wrap {
+        font-size: 33px;
+    }
+    .laboratorios-cinfa-sec {
+        margin: 100px 0 110px;
+    }
+    .customer-service {
+        width: 300px;
+    }
+    .input-box label {
+        font-size: 16px;
+    }
+    .contact-form-wrap {
+        padding: 33px 20px 27px;
+    }
+    .contact-form {
+        width: calc(100% - 330px);
+        padding-left: 30px;
+    }
+    .input_group > div {
+        padding: 0 15px;
+        width: 50%;
+    }
+    .input_group {
+        margin: 0 -15px;
+    }
+}
+
+@media (max-width: 1280px){
+    .intermedia-page .owl_hero_slider_item {
+        height: 80vh;
+    }
+    .intermedia-page .owl_hero_slider_bg {
+        height: 100%;
+        width: 100%;
+    }
+    .intermedia-page .owl_hero_slider_bg img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: left;
+           object-position: left;
+    }
+    .menopausia-flore {
+        margin-bottom: 45px;
+    }
+    .producto-page .all-product-sec {
+        margin: 10px 0 125px;
+    }
+    section.gineprotect_sec {
+        margin-bottom: 136px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1530px){
+    .intermedia-page .owl_hero_slider_bg {
+        height: 580px !important;
+    }
+    .intermedia-page .owl_hero_slider_bg img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: left;
+           object-position: left;
+    }
+    .intermedia-page .owl_hero_slider_item {
+        height: auto;
+    }
+}
+
+@media (max-width: 1199px){
+    .menu_block .menu_list > ul > li {
+        margin-right: 25px;
+    }
+    .logo_hold {
+        max-width: 200px;
+    }
+    .menu_logo {
+        max-width: 100px;
+    }
+    .hero_slider_text h2 {
+        max-width: 150px;
+    }
+    .hero_slider_text p {
+        font-size: 16px;
+    }
+    .hero_slider_procudt_color {
+        height: 45px;
+    }
+    .owl_hero_slider.owl-theme .owl-nav.disabled+.owl-dots {
+        bottom: 17px;
+    }
+    .footer_logo {
+        max-width: 110px;
+    }
+    .social_icon svg {
+        width: 32px;
+        height: 32px;
+    }
+    header.fixed .menu_block .menu_list > ul > li > a {
+        font-size: 16px;
+    }
+    header.fixed .logo_hold {
+        max-width: 190px;
+    }
+    header {
+        padding: 40px 0;
+    }
+    .footer_wrapper {
+        padding: 35px 0;
+    }
+    .ns-nutricional-card-content {
+        padding: 20px 15px;
+    }
+    .ns-nutricional-card-text {
+        font-size: 18px;
+    }
+    .inner-hero-sec {
+        padding: 285px 0 150px;
+    }
+    .inner-hero-title {
+        font-size: 34px;
+        max-width: 680px;
+    }
+    .ns-nutricional .row {
+        margin-top: 70px;
+    }
+    .inner-mega_menu {
+        margin-top: 0;
+        padding: 25px 0;
+    }
+    .mega_menu_item_link{
+        padding: 0 25px;
+    }
+    .mega_menu_item_link h2 {
+        font-size: 18px;
+    }
+    .mega_menu_item_link h3, .sub_mega_menu h3 {
+        font-size: 15px;
+    }
+    .mega_menu_item_link p, .sub_mega_menu p {
+        font-size: 14px;
+    }
+    .owl_hero_slider_item {
+        height: 84vh;
+    }
+    .slider_produvt_img {
+        width: 48%;
+    }
+    .vlas-urinarias-wrap {
+        font-size: 32px;
+        height: 23px;
+    }
+    .vlas-urinarias-produvt_title::before {
+        height: 23px;
+    }
+    .product-card-img {
+        height: 246px;
+    }
+    .all-product-sec {
+        margin: 10px 0 110px;
+    }
+    .intermedia-page .owl_hero_slider_bg img {
+        -o-object-position: 20%;
+           object-position: 20%;
+    }
+    .asesoramiento-page .vlas-urinarias-wrap {
+        font-size: 28px;
+    }
+    .estudios-card-title {
+        font-size: 22px;
+    }
+    .estudios-sec .row > div {
+        margin-bottom: 55px;
+    }
+    .laboratorios-cinfa-details h6 {
+        font-size: 28px;
+        max-width: unset;
+    }
+    .conoce-todos-details h6 {
+        padding-bottom: 100px;
+    }
+    .conoce-todos-details p {
+        margin-bottom: 25px;
+    }
+    .laboratorios-cinfa-details h6 br{
+        display: none;
+    }
+    .laboratorios-cinfa-details h6 + h6 {
+        margin-top: 28px;
+    }
+    .laboratorios-cinfa-sec {
+        margin: 90px 0;
+    }
+    .asesoramiento-page .inner-hero-sec {
+        background-position: 100% center;
+    }
+    .estudios-sec {
+        margin-bottom: 150px;
+    }
+    .customer-service {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        width: 100%;
+        padding-left: 0;
+    }
+    .customer-service > .customer-service-box{
+        width: 48%;
+    }
+    .customer-service-box + .customer-service-box {
+        margin-top: 0;
+    }
+    .gineProtect-title {
+        font-size: 38px;
+        margin-bottom: 8px;
+    }
+    .gineProtect-sug-title {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .accordion-panel {
+        padding: 15px 0 20px;
+        font-size: 18px;
+    }
+    .accordion {
+        margin: 0 0 40px;
+    }
+    .producto-page .all-product-sec {
+        margin: 10px 0 100px;
+    }
+    .mega_menu_item:not(:first-child) .mega_menu_item_link::before {
+        width: 87%;
+    }
+    .accordion-thumb > span {
+        width: 24px;
+        height: 24px;
+        line-height: 1.5;
+    }
+    .accordion-thumb > p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 991px){
+    header {
+        padding: 30px 0;
+    }
+    .cm-overflow header .logo_hold img, .cm-overflow header .menu_logo img {
+        -webkit-filter: invert(1);
+                filter: invert(1);
+    }
+    .menu_list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: unset;
+            -ms-flex-align: unset;
+                align-items: unset;
+    }
+    .menu_btn{
+        -webkit-transition-delay: 0.20s;
+        -o-transition-delay: 0.20s;
+        transition-delay: 0.20s;
+        -webkit-transform: translateX(100vw);
+        -ms-transform: translateX(100vw);
+        transform: translateX(100vw);
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .sub_mega_menu {
+        height: auto;
+        right: 0;
+        position: unset;
+        visibility: visible;
+        opacity: 1;
+        padding: 10px 15px 15px;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        width: auto;
+        margin-top: 10px;
+        -webkit-box-shadow: unset;
+                box-shadow: unset;
+        border-top: 1px solid rgb(0 0 0 / 22%);
+        display: none;
+        width: 96%;
+        margin: 10px auto 0;
+    }
+    .open_menu  .menu_btn {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .footer_wrapper .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        text-align: center;
+    }
+    .footer_menu,
+    .social_icon{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .copy_right {
+        margin-top: 13px;
+        margin-bottom: unset;
+    }
+    .footer_logo {
+        max-width: 110px;
+        margin: 0 auto 20px;
+    }
+    .footer_detals{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .footer_wrapper {
+        padding: 25px 0;
+    }
+    .footer_menu {
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+        margin-bottom: 15px;
+    }
+    .social_icon{
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    .copy_right {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .hero_slider_text h2 {
+        max-width: 110px;
+    }
+    .hero_slider_text p {
+        font-size: 14px;
+    }
+    .slider_produvt_img {
+        width: 35%;
+    }
+    .footer_menu > a, .footer_menu > p {
+        font-size: 16px;
+    }
+    .copy_right p, .copy_right p a {
+        font-size: 16px;
+    }
+    .social_icon svg {
+        width: 28px;
+        height: 28px;
+    }
+    .inner-hero-sec {
+        padding: 200px 0 100px;
+    }
+    .inner-hero-title {
+        font-size: 30px;
+        max-width: unset;
+    }
+    .ns-nutricional {
+        padding: 80px 0 120px;
+    }
+    .section-title-wrap{
+        font-size: 32px;
+    }
+    .section-content{
+        font-size:28px;
+    }
+    h2.section-title-wrap {
+        margin-bottom: 5px;
+    }
+    .ns-nutricional .row {
+        margin-top: 50px;
+    }
+    .ns-nutricional .row{
+        margin-bottom: -30px;
+    }
+    .ns-nutricional .row > div{
+        margin-bottom: 30px;
+    }
+    .owl_hero_slider_item {
+        height: auto;
+    }
+    .mega_menu {
+        position: unset;
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        display: none;
+    }
+    ul.mega_menu_list {
+        height: 300px;
+        overflow-y: scroll;
+    }
+    li.nav-btn {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .inner-mega_menu {
+        margin-top: 15px;
+        padding: 15px 0 0;
+    }
+    .mega_menu_item_link{
+        padding: 0 15px;
+    }
+    .dropdown_menu > a::before,
+    .sub_dropdown::before {
+        content: "";
+        display: inline-block;
+        height: 7px;
+        width: 7px;
+        margin-right: 0;
+        margin-left: 0;
+        vertical-align: middle;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transition: -webkit-transform 0.2s ease-out;
+        transition: -webkit-transform 0.2s ease-out;
+        -o-transition: transform 0.2s ease-out;
+        transition: transform 0.2s ease-out;
+        transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    .dropdown_menu > a.is-active::before,
+    .sub_dropdown::before {
+        -webkit-transform: rotate(223deg);
+            -ms-transform: rotate(223deg);
+                transform: rotate(223deg);
+        top: 9px;
+    }
+    .slider_produvt_img {
+        width: 64%;
+        margin: -120px auto 15px;
+        position: unset;
+    }
+    .hero_slider_procudt_details {
+        position: unset;
+    }
+    .hero_slider_text {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .intermedia-page .owl_hero_slider_item {
+        height: auto;
+    }
+    .hero_produvt_img {
+        max-width: 170px;
+    }
+    .intermedia-page .hero_slider_procudt_contant {
+        padding: 10px 0;
+    }
+    .vlas-urinarias-title {
+        margin: 45px 0;
+    }
+    .vlas-urinarias-wrap {
+        font-size: 28px;
+    }
+    .menopausia-flore_wrap .product-card-img {
+        height: auto;
+    }
+    .flora-vaginal-card{
+        padding-top: 28px;
+    }
+    .asesoramiento-page .vlas-urinarias-wrap {
+        height: auto;
+    }
+    .asesoramiento-page .vlas-urinarias-produvt_title::before{
+        display: none;
+    }
+    .laboratorios-cinfa-details h6 {
+        font-size: 26px;
+    }
+    .asesoramiento-page .inner-hero-content {
+        width: auto;
+    }
+    .asesoramiento-page .inner-hero-sec {
+        background-position: 70% center;
+        padding: 175px 0 100px;
+    }
+    .laboratorios-cinfa-sec {
+        margin: 70px 0;
+    }
+    .asesoramiento-page .tratamientos-sec .row > div{
+        margin-bottom: 30px;
+    }
+    .tratamientos-sec {
+        margin-bottom: 60px;
+    }
+    .asesoramiento-page .vlas-urinarias-produvt_title {
+        margin-bottom: 40px;
+    }
+    .estudios-sec .row > div {
+        margin-bottom: 40px;
+    }
+    .estudios-card-img {
+        margin-bottom: 15px;
+    }
+    .estudios-card-title {
+        font-size: 20px;
+        padding-left: 19px;
+    }
+    .estudios-card-title::before {
+        width: 8px;
+    }
+    .input_group > div {
+        width: 100%;
+    }
+    .input_group {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .input_group .input-box + .input-box{
+        margin-top: 30px;
+    }
+    .input-box.button_wrap {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .contact-form-wrap,
+    .customer-service-box{
+        padding: 25px;
+    }
+    .contact-form-wrap{
+        margin-bottom: 35px;
+    }
+    .customer-service-title {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .input-box textarea {
+        height: 100px;
+    }
+    .contact-details-sec {
+        padding: 100px 0;
+    }
+    .gineProtect-title {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    .gineProtect-sug-title {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    .gineProtect-text {
+        font-size: 16px;
+    }
+    .gineProtect-description {
+        font-size: 18px;
+    }
+    .accordion-thumb > p {
+        font-size: 15px;
+        width: 90%;
+    }
+    .accordion-panel {
+        padding: 10px 0 15px;
+        font-size: 16px;
+    }
+    .accordion {
+        margin: 0 0 30px;
+    }
+    section.gineprotect_sec {
+        margin-bottom: 106px;
+    }
+    .producto-page .all-product-sec {
+        margin: 10px 0 80px;
+    }
+    .gineProtect-sug-title {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .gineProtect-details {
+        height: 75px;
+        padding: 0px 0;
+    }
+    .mega_menu_item:not(:first-child) .mega_menu_item_link::before {
+        width: 95%;
+    }
+    .asesoramiento-page .row {
+        margin: 0 -15px;
+    }
+    .asesoramiento-page .col, .asesoramiento-page [class*=col-] {
+        padding: 0 15px;
+    }
+    .accordion-thumb > span {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    header {
+        padding: 20px 0;
+    }
+    .logo_hold {
+        max-width: 180px;
+    }
+    .hero_slider_text {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .inner-hero-title {
+        font-size: 28px;
+    }
+    .inner-hero-sec {
+        padding: 180px 0 80px;
+    }
+    .ns-nutricional .row {
+        margin-top: 30px;
+    }
+    .section-content {
+        font-size: 22px;
+    }
+    .section-title-wrap {
+        font-size: 28px;
+    }
+    .ns-nutricional-card-title {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+    .ns-nutricional-card-text {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .slider_produvt_img {
+        width: 82%;
+    }
+    .product-card-details h3 {
+        font-size: 22px;
+    }
+    .product-card-details h6 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .product-card-details p {
+        font-size: 16px;
+    }
+    .product-card-img img {
+        margin-left: -23px;
+    }
+    .product-card-img {
+        height: auto;
+    }
+    .all-product-sec .vlas-urinarias_details {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 45px;
+    }
+    .slndrome-premenstrual {
+        margin-top: 0;
+    }
+    .menopausia-flore {
+        margin-bottom: 30px;
+    }
+    .row.vlas-urinarias_details{
+        margin-bottom: 70px;
+    }
+    .row.vlas-urinarias_details > div:not(:last-child){
+        padding-bottom: 40px;
+    }
+    .menopausia-flore_wrap > div:not(:last-child){
+        margin-bottom: 60px;
+    }
+    .flora-vaginal-card {
+        padding-top: 0;
+    }
+    .intermedia-page .hero_sec {
+        height: 50vh;
+    }
+    .intermedia-page .hero_slider_wrap{
+        height: 100%;
+    }
+    .intermedia-page .owl_hero_slider_item {
+        height: 100%;
+    }
+    .intermedia-page .hero_slider_procudt_details {
+        position: absolute;
+    }
+    .conoce-todos-details h6 {
+        padding-bottom: 40px;
+        margin-top: 30px;
+    }
+    .conoce-todos-details p {
+        margin-bottom: 20px;
+    }
+    .laboratorios-cinfa-details h6 {
+        font-size: 24px;
+    }
+    .laboratorios-cinfa-sec {
+        margin: 60px 0;
+    }
+    .asesoramiento-page .vlas-urinarias-produvt_title {
+        margin-bottom: 30px;
+    }
+    .customer-service-item > li:nth-child(2) {
+        margin: 14px 0;
+    }
+    .input_group .input-box + .input-box {
+        margin-top: 15px;
+    }
+    .input_group:not(:last-child) {
+        margin-bottom: 25px;
+    }
+    .button_wrap{
+        margin-top: 25px !important;
+    }
+    .contact-form-wrap, .customer-service-box {
+        padding: 20px;
+    }
+    .contact-details-sec {
+        padding: 80px 0;
+    }
+    .contacto-page .inner-hero-sec {
+        height: 300px;
+    }
+    .contacto-page .inner-hero-content{
+        height: 100%;
+    }
+    .contacto-page .inner-hero-content img{
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: 0%;
+           object-position: 0%;
+    }
+    .gineprotect_product {
+        margin-bottom: 40px;
+    }
+    .gineProtect-description {
+        font-size: 16px;
+    }
+    section.gineprotect_sec {
+        margin-bottom: 85px;
+    }
+    .producto-page .all-product-sec {
+        margin: 10px 0 70px;
+    }
+}
+
+@media (max-width: 575px){
+    .hero_slider_text p {
+        margin-left: 0;
+    }
+    .hero_slider_text {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .hero_slider_text h2 {
+        max-width: 126px;
+        margin-bottom: 10px;
+    }
+    .slider_produvt_img {
+        margin: -80px auto 15px;
+    }
+    .hero_slider_procudt_contant {
+        padding: 13px 0;
+    }
+    .hero_slider_procudt_color {
+        height: 25px;
+    }
+    .owl_hero_slider.owl-theme .owl-nav.disabled+.owl-dots {
+        bottom: 8px;
+    }
+    .inner-hero-sec {
+        padding: 150px 0 80px;
+    }
+    .inner-hero-title {
+        font-size: 26px;
+    }
+    .ns-nutricional {
+        padding: 60px 0 80px;
+    }
+    .hero_slider_procudt_details {
+        position: relative;
+    }
+    .product-card-details h6 {
+        max-width: unset;
+    }
+    .product-card-img img,
+    .flora-vaginal-card .product-card-img img,
+    .slndrome-premenstrual-card .product-card-img img,
+    .menopausia-card .product-card-img img {
+        margin-left: 0;
+    }
+    .intermedia-page .hero_sec {
+        height: 40vh;
+    }
+    .estudios-sec {
+        margin-bottom: 60px;
+    }
+    .asesoramiento-page .col, .asesoramiento-page [class*=col-] {
+        padding: 0 15px;
+    }
+    .asesoramiento-page .row {
+        margin: 0 -15px;
+    }
+    .laboratorios-cinfa-sec {
+        margin: 60px 0 80px;
+    }
+    .estudios-sec .row > div {
+        margin-bottom: 25px;
+    }
+    .contact-details-sec {
+        padding: 60px 0;
+    }
+    .checkbox-wrap label {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .checkbox-wrap label > a{
+        margin-top: 10px;
+    }
+    .input_group > div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .input_group .input-box + .input-box {
+        margin-top: 30px;
+    }
+    .customer-service{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .customer-service > .customer-service-box {
+        width: 100%;
+    }
+    .customer-service-box + .customer-service-box {
+        margin-top: 30px;
+    }
+    .input-box textarea {
+        height: 60px;
+    }
+    .contacto-page .inner-hero-content img {
+        -o-object-position: 20%;
+           object-position: 20%;
+    }
+    .sub_mega_menu {
+        width: 94%;
+    }
+    .logo_hold {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 450px){
+    .slider_produvt_img {
+        margin: -80px auto 15px;
+    }
+    .hero_slider_procudt_details {
+        position: relative;
+    }
+    .footer_menu {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    header {
+        padding: 15px 0;
+    }
+    .ns-nutricional-card-title br{
+        display: none;
+    }
+    .all-product-sec {
+        margin: 10px 0 80px;
+    }
+    .vlas-urinarias-produvt_title::before {
+        position: unset;
+    }
+    .vlas-urinarias-wrap {
+        height: auto;
+    }
+    .intermedia-page .hero_sec {
+        height: 32vh;
+    }
+    .contact-details-sec {
+        padding: 50px 0;
+    }
+    .mega_menu_item:not(:first-child) .mega_menu_item_link::before {
+        width: 91%;
+    }
+    .sub_mega_menu {
+        width: 90%;
+    }
+    .owl_hero_slider_bg {
+        height: 370px;
+    }
+    .owl_hero_slider.owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: 10%;
+           object-position: 10%;
+    }
+    .accordion-thumb > p {
+        font-size: 14px;
+    }
+    .accordion-thumb > span {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 400px){
+    .logo_hold {
+        max-width: 150px;
+    }
+    .owl_hero_slider_bg {
+        width: 100%;
+        height: 360px;
+    }
+    .owl_hero_slider_bg  img {
+        display: block;
+        width: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: 60% 80%;
+           object-position: 60% 80%;
+        height: 100%;
+    }
+    .ns-nutricional .row > div {
+        margin-bottom: 20px;
+    }
+    .ns-nutricional .row {
+        margin-bottom: -20px;
+    }
+
+}
+
+@media (max-width: 367px){
+    .inner-hero-title {
+        font-size: 21px;
+    }
+    .inner-hero-sec {
+        padding: 120px 0 70px;
+    }
+    .section-title-wrap {
+        font-size: 26px;
+    }
+    .section-content {
+        font-size: 18px;
+    }
+    .ns-nutricional {
+        padding: 60px 0 60px;
+    }
+    .slider_produvt_img {
+        width: 92%;
+    }
+    .asesoramiento-page .col-6 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+        width: 100%;
+    }
+    .accordion-thumb > p {
+        font-size: 14px;
+    }
+    .accordion-panel {
+        font-size: 14px;
+    }
+    .breadkurma-wrap {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .breadkurma-wrap a:last-child{
+        margin-top: 5px;
+    }
+    .producto-page .all-product-sec {
+        margin: 10px 0 50px;
+    }
+    section.gineprotect_sec {
+        margin-bottom: 55px;
+    }
+    .gineProtect-details > p {
+        font-size: 14px;
+    }
+    .mega_menu_item:not(:first-child) .mega_menu_item_link::before {
+        width: 89%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    /********************  Mobile Menu Css Start *********************/
+    .cm-overflow, .cm-overflow body, .modal-open {
+        overflow: hidden;
+        -ms-touch-action: none;
+            touch-action: none;
+    }
+    .menu_list{
+        width: 100%;
+        position: relative;
+        z-index: 99;
+    }
+    .logo_hold {
+        position: relative;
+        z-index: 110;
+    }
+    .menu_toggle_btn {
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 20px;
+        height: 24px;
+        position: relative;
+        z-index: 102;
+    }
+    .open_menu .menu_toggle_btn span {
+        background-color: #fff;
+    }
+    .open_menu .menu_toggle_btn span:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+            -ms-transform: translateY(8px) rotate(45deg);
+                transform: translateY(8px) rotate(45deg);
+    }
+    .open_menu .menu_toggle_btn span:nth-child(2) {
+       opacity: 0;
+    }
+    .open_menu .menu_toggle_btn span:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+            -ms-transform: translateY(-8px) rotate(-45deg);
+                transform: translateY(-8px) rotate(-45deg);
+    }
+    .open_menu .menu_block {
+        clip-path: circle(100%);
+        -webkit-clip-path: circle(100%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: visible;
+        text-align: left;
+    }
+    .menu_block {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(0 0 0 / 100%);
+        -webkit-clip-path: circle(0px at 100% 0px);
+                clip-path: circle(0px at 100% 0px);
+        -webkit-transition: 0.5s ease all;
+        -o-transition: 0.5s ease all;
+        transition: 0.5s ease all;
+        z-index: 100;
+        padding: 70px 25px 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .open_menu .menu_block .menu_list > ul{
+        display: block;
+        width: 100%;
+    }
+    .open_menu .menu_block .menu_list > ul > li {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+    }
+    .menu_block .menu_list > ul > li {
+        height: unset;
+        margin-bottom: 25px;
+        padding-left: 0;
+        margin-right: 0;
+        text-align: left;
+        width: 100%;
+        min-width: auto;
+        -webkit-transform: translateX(100vw);
+            -ms-transform: translateX(100vw);
+                transform: translateX(100vw);
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+                -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start;
+    }
+    .menu_block .menu_list > ul > li > a {
+        color: #fff;
+        font-size: 20px;
+        line-height: 1;
+    }
+    .menu_block ul li:nth-child(1) {
+        -webkit-transition-delay: 0.05s;
+             -o-transition-delay: 0.05s;
+                transition-delay: 0.05s;
+    }
+    .menu_block ul li:nth-child(2) {
+        -webkit-transition-delay: 0.10s;
+             -o-transition-delay: 0.10s;
+                transition-delay: 0.10s;
+    }
+    .menu_block ul li:nth-child(3) {
+        -webkit-transition-delay: 0.15s;
+             -o-transition-delay: 0.15s;
+                transition-delay: 0.15s;
+    }
+    .menu_block ul li:nth-child(4) {
+        -webkit-transition-delay: 0.20s;
+             -o-transition-delay: 0.20s;
+                transition-delay: 0.20s;
+    }
+    header.fixed .menu_toggle_btn span{
+        background-color: #fff;
+    }
+}
+/********************  Mobile Menu Css Close *********************/ 
