@@ -17,9 +17,9 @@
         opacity: 1;
     }
 }
-@media (min-width: 1700px){
+@media (min-width: 1200px){
     .container{
-        max-width: 1690px;
+        max-width: 1130px;
     }
     .ns-nutricional .row{
         margin-left: -25px;
@@ -28,6 +28,7 @@
     .ns-nutricional .row > div{
         padding: 0 25px;
     }
+
 }
 
 @media (max-width: 1600px){
@@ -52,36 +53,72 @@
 }
 
 @media (max-width: 1440px){
+    .hero_slider_procudt_contant {
+        padding: 17px 0;
+    }
+    .footer_wrapper {
+        padding: 35px 0;
+    }
+    header {
+        padding: 40px 0;
+    }
+    .inner-mega_menu {
+        margin-top: 5px;
+        padding: 28px 0;
+    }
+    .mega_menu_item_link h2 {
+        font-size: 20px;
+    }
+    .mega_menu_item_link {
+        padding: 0 25px;
+    }
+    .mega_menu_item:not(:first-child) .mega_menu_item_link::before {
+        width: 88%;
+    }
     .menu_block .menu_list > ul > li > a {
         font-size: 18px;
     }
     .menu_logo {
-        max-width: 115px;
+        max-width: 100px;
     }
+    .mega_menu_item_link h3, .sub_mega_menu h3 {
+        font-size: 15px;
+    }
+    .mega_menu_item_link p, .sub_mega_menu p {
+        font-size: 14px;
+    }
+    .menu_block .menu_list > ul > li {
+        margin-right: 40px;
+    }   
     .logo_hold {
-        max-width: 250px;
+        max-width: 200px;
     }
     header {
-        padding: 60px 0;
+        padding: 30px 0;
     }
     .ns-nutricional-card-content {
         padding: 20px 20px 30px;
     }
-    .ns-nutricional-card-text {
-        font-size: 20px;
+    .ns-nutricional .row {
+        margin-top: 50px;
     }
     .ns-nutricional-card-title {
-        font-size: 23px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
     .section-title-wrap {
-        font-size: 35px;
-    }
-    .section-content {
-        font-size: 35px;
+        font-size: 32px;
     }
     .inner-hero-title {
-        font-size: 36px;
+        font-size: 29px;
+        max-width: 80% !important;
+    }
+    .asesoramiento-page .inner-hero-title {
+        margin-bottom: 35px;
+    }
+    .asesoramiento-page .inner-hero-content h2 {
+        font-size: 25px;
+        max-width: 650px;
     }
     .flora-vaginal-card .product-card-img img {
         margin-left: -65px;
@@ -90,10 +127,10 @@
         margin-left: -80px;
     }
     .estudios-card-title {
-        font-size: 25px;
+        font-size: 22px;
     }
     .asesoramiento-page .inner-hero-sec {
-        padding: 265px 0 130px;
+        padding: 200px 0 130px;
     }
     .laboratorios-cinfa-sec {
         margin: 105px 0 130px;
@@ -106,23 +143,104 @@
         margin-bottom: 70px;
     }
     .tratamientos-sec {
-        margin-bottom: 135px;
+        margin-bottom: 100px;
     }
     .customer-service {
         width: 330px;
     }
     .contact-details-sec {
-        padding: 120px 0;
+        padding: 80px 0;
     }
     .contact-form {
         width: calc(100% - 330px);
         padding-left: 47px;
     }
     .producto-page .all-product-sec {
-        margin: 10px 0 145px;
+        margin: 10px 0 90px;
     }
     section.gineprotect_sec {
-        margin-bottom: 156px;
+        margin-bottom: 100px;
+    }
+    .footer_menu > a, .footer_menu > p {
+        font-size: 16px;
+    }
+    .laboratorios-cinfa-details h6 {
+        font-size: 28px;
+    }
+    .laboratorios-cinfa-details h6 + h6 {
+        margin-top: 30px;
+    }
+    .conoce-todos-details h6 {
+        padding-bottom: 100px;
+    }
+    .conoce-todos-details p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .asesoramiento-page .vlas-urinarias-wrap {
+        font-size: 28px;
+    }
+    .asesoramiento-page .vlas-urinarias-produvt_title {
+        margin-bottom: 50px;
+    }
+    .estudios-card-img {
+        margin-bottom: 20px;
+    }
+    .estudios-sec .row > div {
+        margin-bottom: 45px;
+    }
+    .estudios-sec {
+        margin-bottom: 160px;
+    }
+    .customer-service-title {
+        margin-bottom: 25px;
+    }
+    .input_group .input-box + .input-box {
+        margin-top: 25px;
+    }
+    .input_group:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .input-box textarea {
+        height: 100px;
+    }
+    .customer-service-item > li > a {
+        font-size: 17px;
+    }
+    .vlas-urinarias-wrap {
+        font-size: 28px;
+        height: 32px;
+    }
+    .menopausia-flore_wrap .product-card-img {
+        height: auto;
+    }
+    .product-card-details h3 {
+        font-size: 22px;
+    }
+    .product-card-details h6 {
+        font-size: 16px;
+        max-width: unset;
+    }
+    .ns-nutricional {
+        padding: 90px 0 100px;
+    }
+    .inner-hero-sec {
+        padding: 260px 0 100px;
+    }
+    .gineProtect-title {
+        font-size: 32px;
+    }
+    .gineProtect-details {
+        height: 70px;
+    }
+    .accordion-thumb > p {
+        font-size: 18px;
+    }
+    .accordion-thumb {
+        padding: 8px 16px 8px 10px;
+    }
+    .accordion-thumb > span {
+        width: 20px;
     }
 }
 
@@ -141,7 +259,11 @@
         font-size: 18px;
     }
     .copy_right p, .copy_right p a {
-        font-size: 18px;
+        font-size: 17px;
+    }
+    .social_icon svg {
+        width: 30px;
+        height: 30px;
     }
     .social_icon svg {
         width: 36px;
@@ -149,12 +271,6 @@
     }
     .footer_logo {
         max-width: 120px;
-    }
-    .ns-nutricional {
-        padding: 90px 0 140px;
-    }
-    .product-card-details h3 {
-        font-size: 24px;
     }
     .vlas-urinarias-title {
         margin: 65px 0;
@@ -165,18 +281,14 @@
     .menopausia-flore {
         margin-bottom: 63px;
     }
-    .vlas-urinarias-wrap {
-        font-size: 37px;
-        height: 32px;
-    }
     .all-product-sec {
         margin: 10px 0 130px;
     }
     .asesoramiento-page  .vlas-urinarias-wrap {
-        font-size: 33px;
+        font-size: 28px;
     }
     .laboratorios-cinfa-sec {
-        margin: 100px 0 110px;
+        margin: 80px 0 80px;
     }
     .customer-service {
         width: 300px;
@@ -185,6 +297,7 @@
         font-size: 16px;
     }
     .contact-form-wrap {
+        margin-bottom: 35px;
         padding: 33px 20px 27px;
     }
     .contact-form {
@@ -193,7 +306,6 @@
     }
     .input_group > div {
         padding: 0 15px;
-        width: 50%;
     }
     .input_group {
         margin: 0 -15px;
@@ -218,12 +330,6 @@
     }
     .menopausia-flore {
         margin-bottom: 45px;
-    }
-    .producto-page .all-product-sec {
-        margin: 10px 0 125px;
-    }
-    section.gineprotect_sec {
-        margin-bottom: 136px;
     }
 }
 
@@ -419,9 +525,6 @@
         width: 24px;
         height: 24px;
         line-height: 1.5;
-    }
-    .accordion-thumb > p {
-        font-size: 19px;
     }
 }
 
