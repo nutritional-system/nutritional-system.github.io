@@ -65,13 +65,32 @@ img {
     overflow: hidden;
 }
 header {
-    /* position: fixed; */
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
     padding: 77px 0;
+}
+.sticky.fixed{
+    position: fixed;
+    z-index: 99;
+    animation: slide-down 0.6s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 21%);
+}
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    }
 }
 .in_header_block {
     display: -webkit-box;
@@ -89,18 +108,18 @@ header {
 }
 .menu_block .menu_list > ul > li {
     display: inline-block;
-    margin-right: 65px;
+    margin-right: 40px;
     position: relative;
 }
 .menu_block .menu_list > ul > li > a {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 19px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     color: rgb(0, 0, 0);
     position: relative;
 }
@@ -138,12 +157,15 @@ header {
             align-items: center;
 }
 .logo_hold {
-    max-width: 272px;
+    max-width: 240px;
 }
-.menu_logo{
-    max-width: 135px;
+.menu_logo {
+    max-width: 110px;
     display: inline-block;
-} 
+}
+.menu_logo img{
+    width: 100%;
+}
 header.fixed {
     background-color: rgb(0 0 0 / 90%);
     padding: 30px 0;
@@ -241,6 +263,11 @@ header.fixed .menu_logo img{
     font-weight: 300; 
     line-height: 1.2;
 }
+.sub_mega_menu h3,
+.sub_mega_menu p{
+    text-transform: capitalize;
+    font-weight: 700;
+}
 header.fixed .inner-mega_menu {
     margin-top: 38px;
 }
@@ -294,12 +321,12 @@ header.fixed .inner-mega_menu {
         -ms-flex-align: end;
             align-items: flex-end;
 }
-.slider_produvt_img{
+.slider_produvt_img {
     position: absolute;
     right: 0;
-    bottom: -14px;
+    bottom: -5px;
     /* width: 785px; */
-    width: 47%;
+    width: 40%;
 }
 .slider_produvt_img img{
     width: 100%;
@@ -308,14 +335,14 @@ header.fixed .inner-mega_menu {
        object-fit: cover;
 }
 .hero_slider_text h2{
-    max-width: 255px;
+    max-width: 200px;
 }
 .hero_slider_text p{
     font-weight: 400;
-    font-size: 26px;
+    font-size: 18px;
     color: #000000;
     line-height: 0.8;
-    margin-left: 22px;
+    margin-left:15px;
 }
 .hero_slider_procudt_color{
     height: 65px;
@@ -431,7 +458,7 @@ header.fixed .inner-mega_menu {
 }
 .inner-hero-title {
     color: rgb(0, 0, 0);
-    font-size: 39px;
+    font-size: 32px;
     font-weight: 300;
     max-width: 800px;
     text-transform: uppercase;
@@ -441,23 +468,23 @@ header.fixed .inner-mega_menu {
 }
 
 /* NS Nutricional Start */
-.ns-nutricional{
-    padding: 110px 0 165px;
+.ns-nutricional {
+    padding: 100px 0 130px;
 }
 .section-title-wrap {
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.166;
     font-weight: 700;
 }
-.section-content{
+.section-content {
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 28px;
     line-height: 1.166;
     font-weight: 300;
 }
-.ns-nutricional .row{
-    margin-top: 100px;
+.ns-nutricional .row {
+    margin-top: 70px;
 }
 .ns-nutricional-card-img img{
     width: 100%;
@@ -469,20 +496,52 @@ header.fixed .inner-mega_menu {
 .ns-nutricional-card-content {
     padding: 27px 27px 60px;
 }
-.ns-nutricional-card-title{
+.ns-nutricional-card-title {
     color: #000000;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.071;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .ns-nutricional-card-text {
     color: #000000;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.2;
     font-weight: 300;
 }
+.ns-nutricional-card-text br{
+    display: none;
+}
+.ns-nutricional-card-content {
+    padding: 20px 15px 40px;
+}
+.ns-nutricional .row > div {
+    padding: 0 15px;
+}
+.ns-nutricional .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
 /* NS Nutricional End */
+.la-marca-page .inner-hero-title {
+    font-size: 28px;
+    max-width: 730px;
+}
+.la-marca-page .section-title-wrap {
+    font-size: 30px;
+}
+.section-content {
+    font-size: 24px;
+}
+.ns-nutricional-card-title br{
+    display: none;
+}
+.ns-nutricional-card-title {
+    font-size: 17px;
+}
+.ns-nutricional-card-text {
+    font-size: 16px;
+}
 /********************  La Marca Css End  *********************/
 
 /********************  Intermedia Css Start  *********************/
@@ -525,7 +584,7 @@ header.fixed .inner-mega_menu {
     top: 0;
     left: 0;
     width: 100%;
-    height: 32px;
+    height: 28px;
     background-color: rgb(202, 23, 53);
     opacity: 0.251;
 }
@@ -535,8 +594,8 @@ header.fixed .inner-mega_menu {
 .vlas-urinarias-wrap {
     display: inline-block;
     color: rgb(0, 0, 0);
-    line-height: 0.8;
-    font-size: 42px;
+    line-height: 1.2;
+    font-size: 25px;
     font-weight: 300;
     text-transform: uppercase;
     padding: 0px 17px 0 13px;
@@ -544,6 +603,7 @@ header.fixed .inner-mega_menu {
     z-index: 9;
     position: relative;
     border-left: 12px solid #ca1735;
+    height: 28px;
 }
 .menopausia-title::before{
     background-color: #685889;
@@ -584,17 +644,17 @@ header.fixed .inner-mega_menu {
     margin-bottom: 85px;
 }
 .product-card-img img {
-    margin-left: -40px;
+    margin-left: -24px;
 }
 .product-card-details h3{
-    font-size: 25px;
+    font-size: 20px;
     color: #000000;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 7px;
 }
 .product-card-details h6{
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 300;
     color: #000000;
     line-height: 1.0;
@@ -602,7 +662,7 @@ header.fixed .inner-mega_menu {
     margin-bottom: 18px;
 }
 .product-card-details p{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     color: #000000;
     line-height: 1.1;
@@ -611,19 +671,19 @@ header.fixed .inner-mega_menu {
     font-weight: 600;
 }
 .menopausia-flore{
-    margin-bottom: 73px;
+    margin-bottom: 70px;
 }
 .slndrome-premenstrual{
     margin-top: 83px;
 }
 .menopausia-flore_wrap .product-card-img{
-    height: 290px;
+    height: 235px;
 }
 .menopausia-card .product-card-img img {
-    margin-left: -100px;
+    margin-left: -75px;
 }
 .flora-vaginal-card .product-card-img img {
-    margin-left: -70px;
+    margin-left: -63px;
 }
 .slndrome-premenstrual-card .product-card-img img {
     margin-left: -30px;
@@ -643,19 +703,19 @@ header.fixed .inner-mega_menu {
     background-image: url(../images/asesoramiento-hero-bg.png);
 }
 .asesoramiento-page .inner-hero-content {
-    width: 805px;
+    width: 665px;
 }
 .asesoramiento-page .inner-hero-title {
     max-width: unset;
     margin-bottom: 42px;
 }
-.asesoramiento-page .inner-hero-content h2{
-    font-size: 28px;
+.asesoramiento-page .inner-hero-content h2 {
+    font-size: 24px;
     color: #000000;
     line-height: 1.1;
     font-weight: 500;
     text-transform: uppercase;
-    max-width: 740px;
+    max-width: 590px;
 }
 .laboratorios-cinfa-sec{
     margin: 117px 0 140px;
@@ -663,8 +723,8 @@ header.fixed .inner-mega_menu {
 .laboratorios-cinfa-details h6 + h6{
     margin-top: 38px;
 }
-.laboratorios-cinfa-details h6{
-    font-size: 32px;
+.laboratorios-cinfa-details h6 {
+    font-size: 22px;
     color: #000000;
     line-height: 1.0;
     font-weight: 300;
@@ -683,8 +743,8 @@ header.fixed .inner-mega_menu {
     font-weight: 300;
     margin-bottom: 30px;
 }
-.tratamientos-sec{
-    margin-bottom: 157px;
+.tratamientos-sec {
+    margin-bottom: 125px;
 }
 .asesoramiento-page .vlas-urinarias-produvt_title {
     line-height: 0;
@@ -711,8 +771,8 @@ header.fixed .inner-mega_menu {
 .estudios-sec .row > div{
     margin-bottom: 67px;
 }
-.estudios-card-title{
-    font-size: 28px;
+.estudios-card-title {
+    font-size: 19px;
     color: #000000;
     font-weight: 400;
     line-height: 1.1;
@@ -758,8 +818,8 @@ header.fixed .inner-mega_menu {
 .contacto-page .inner-hero-sec{
     background: unset;
 }
-.contact-details-sec{
-    padding: 140px 0 130px;
+.contact-details-sec {
+    padding: 110px 0;
 }
 .cm-row{
     display: -webkit-box;
@@ -822,12 +882,16 @@ header.fixed .inner-mega_menu {
     display: flex;
     margin: 0 -25px;
 }
-.input_group:not(:last-child){
+.input_group:not(:last-child) {
     margin-bottom: 35px;
+    flex-direction: column;
 }
 .input_group > div{
     padding: 0 25px;
-    width: 50%;
+    width: 100%;
+}
+.input_group .input-box + .input-box {
+    margin-top: 35px;
 }
 .input-box {
     display: -webkit-box;
@@ -839,7 +903,7 @@ header.fixed .inner-mega_menu {
     line-height: 0;
 }
 .input-box label {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 300;
     color: #000000;
     line-height: 1;
@@ -877,6 +941,10 @@ header.fixed .inner-mega_menu {
     display: none;
     cursor: pointer;
 }
+.input_group .input-box.checkbox-wrap,
+.input_group .input-box.button_wrap{
+    margin-top: 0 ;
+}
 .checkbox-wrap label {
     position: relative;
     cursor: pointer;
@@ -887,7 +955,7 @@ header.fixed .inner-mega_menu {
         -ms-flex-align: center;
             align-items: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     color: #000000;
 }
@@ -962,10 +1030,10 @@ header.fixed .inner-mega_menu {
 
 /********************  Producto Css Start  *********************/
 section.gineprotect_sec {
-    margin-bottom: 176px;
+    margin-bottom: 125px;
 }
 .producto-page .all-product-sec {
-    margin: 10px 0 175px;
+    margin: 10px 0 120px;
 }
 .gineProtect-text{
     font-size: 21px;
@@ -973,24 +1041,24 @@ section.gineprotect_sec {
     color: #000000;
     line-height: 1;
 }
-.gineProtect-title{
-    font-size: 42px;
+.gineProtect-title {
+    font-size: 34px;
     font-weight: 300;
     line-height: 1;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-.gineProtect-sug-title{
-    font-size: 25px;
+.gineProtect-sug-title {
+    font-size: 20px;
     font-weight: 700;
     color: #000000;
     line-height: 1.12;
     text-transform: uppercase;
-    margin-bottom: 47px;
+    margin-bottom: 30px;
     max-width: 657px;
 }
-.gineProtect-description{
-    font-size: 21px;
+.gineProtect-description {
+    font-size: 18px;
     font-weight: 300;
     color: #000000;
     line-height: 1.1;
@@ -1000,31 +1068,31 @@ section.gineprotect_sec {
     font-weight: 700;
 }
 .gineProtect-details {
-    height: 95px;
-    padding: 20px 0 20px;
+    height: 85px;
+    padding: 15px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .accordion {
-    margin:0 0 50px;
+    margin: 0 0 35px;
     padding: 0;
     list-style: none;
 }
 /* Thumb */
 .accordion-thumb {
     margin: 0;
-    padding: 13px 16px 13px 10px;
+    padding: 7px 16px 5px 10px;
     cursor: pointer;
     font-weight: normal;
     background-color: #f2c5cc;
@@ -1032,15 +1100,15 @@ section.gineprotect_sec {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;    
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 .accordion-thumb > p{
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400;
     color: #000000;
     line-height: 1.1;
@@ -1049,8 +1117,8 @@ section.gineprotect_sec {
 .accordion-panel {
     margin: 0;
     display: none;
-    padding: 20px 0 25px;
-    font-size: 21px;
+    padding: 15px 0 20px;
+    font-size: 15px;
     font-weight: 300;
     color: #000000;
     line-height: 1.14;
@@ -1062,10 +1130,11 @@ section.gineprotect_sec {
     margin-bottom: 11px;
 }
 /* Active */
-.accordion-thumb > span{
+.accordion-thumb > span {
     -webkit-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
+    width: 18px;
 }
 .accordion-item.is-active .accordion-thumb > span {
     -webkit-transform: rotateX(180deg);
