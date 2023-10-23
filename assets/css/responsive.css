@@ -238,7 +238,7 @@
         font-size: 18px;
     }
     .product-card-details h6 {
-        font-size: 14px;
+        font-size: 16px;
         max-width: unset;
         margin-bottom: 15px;
     }
@@ -791,7 +791,7 @@
         margin: 45px 0;
     }
     .vlas-urinarias-wrap {
-        font-size: 28px;
+        font-size: 22px;
     }
     .menopausia-flore_wrap .product-card-img {
         height: auto;
@@ -967,10 +967,9 @@
         width: 82%;
     }
     .product-card-details h3 {
-        font-size: 22px;
+        font-size: 18px;
     }
     .product-card-details h6 {
-        font-size: 18px;
         margin-bottom: 15px;
     }
     .product-card-details p {
