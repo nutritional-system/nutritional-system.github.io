@@ -279,17 +279,20 @@ header.fixed .menu_logo img{
     font-weight: 300; 
     line-height: 1.2;
 }
-.sub_mega_menu h3,
-.sub_mega_menu p{
-    text-transform: capitalize;
-    font-weight: 700;
+
+.sub_mega_menu a {
+  color: #000;
+  display: block;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out 0s;
 }
 
-.sub_mega_menu h3, .sub_mega_menu p {
-    text-transform: capitalize;
-    font-weight: 700;
-    transition: all 0.3s ease-in-out 0s;
+.sub_mega_menu a:hover {
+  font-weight: 700;
 }
+
 /* .sub_mega_menu:hover h3,
 .sub_mega_menu:hover p{
     font-weight: 700;
@@ -676,14 +679,14 @@ header.fixed .inner-mega_menu {
     margin-left: -18px;
 }
 .product-card-details h3{
-    font-size: 20px;
+    font-size: 16px;
     color: #000000;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 7px;
 }
 .product-card-details h6{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: #000000;
     line-height: 1.0;
@@ -691,7 +694,7 @@ header.fixed .inner-mega_menu {
     margin-bottom: 18px;
 }
 .product-card-details p{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
     color: #000000;
     line-height: 1.1;
